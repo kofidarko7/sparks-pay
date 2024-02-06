@@ -1,0 +1,675 @@
+module.exports = {
+
+
+  'sparksPay': {
+
+    'secondaryNav': {
+
+      'show': true,
+
+      'content': {
+
+        'linksOnLeft': [
+          { 'displayText': 'Benefits', 'scrollTo': '#benefits'
+          },
+          { 'displayText': 'How it works', 'scrollTo': '#how-it-works'
+          },
+          { 'displayText': 'Other credit options', 'scrollTo': '#other-cc-options'
+          },
+          { 'displayText': 'FAQs', 'scrollTo': '#faqs'
+          }
+        ],
+
+        'linkOnRight': { 'displayText': 'Sign in to Sparks', 'goTo': 'https: //www.marksandspencer.com/sparkspay/account' }
+        }
+      },
+
+
+    'top': {
+
+
+      'show': true,
+
+
+      'content': {
+
+
+        'image': {
+
+
+          'desktopUrl': 'https: //asset1.marksandspencer.com/is/image/mands/sparks-pay-cc-logo?fmt=png-alpha&wid=869',
+
+
+          'alt': 'Sparks Pay'
+          },
+
+
+        'rightImage': {
+
+
+          'desktopUrl': 'https: //asset1.marksandspencer.com/is/image/mands/sparks-pay-bnr-desktop?fmt=png-alpha&wid=2560',
+
+
+          'tabletUrl': 'https: //asset1.marksandspencer.com/is/image/mands/sparks-pay-bnr-tablet?fmt=png-alpha&wid=1536',
+
+
+          'mobileUrl': 'https: //asset1.marksandspencer.com/is/image/mands/sparks-pay-bnr-mobile?fmt=png-alpha&wid=1280',
+
+
+          'alt': 'Scan To Pay'
+          },
+
+
+        'message': 'Shop today, choose when you pay',
+
+
+        'submessage': 'The M&S credit account that provides a credit limit to spend on the things you love at M&S. Apply now for an instant decision.',
+
+
+        'info': 'Credit is subject to status. M&S plc acts as a  credit broker not a lender.',
+
+
+        'title': 'Love M&S. Love a new way to pay.',
+
+
+        'subtitle': '',
+
+
+        'desc': '<div>Sparks Pay is the new digital credit account available exclusively to Sparks customers. It provides a credit limit to spend on the things you love at M&S and 20% off your first clothing and home order.*</div><div>Apply now for an instant decision.</div>',
+
+
+        'subdesc': 'M&S Plc acts as the credit broker not a lender.†',
+
+
+        'roundels': {
+
+
+          'apr': '23.9% APR',
+
+
+          'representative': 'Representative (variable).',
+
+
+          'info': 'Credit is subject to status. M&S plc acts as a  credit broker not a lender.',
+
+
+          'subInfo': ''
+          }
+        }
+      },
+
+
+    'middle': {
+
+
+      'content': {
+
+
+        'show': true,
+
+
+        'title': 'What’s great about Sparks Pay?',
+
+
+        'description': 'Sparks Pay is available to UK residents, aged 18 and over. You\'ll need to have an annual income/pension before tax of £6,
+          800 or more and be happy for M&S Bank to undertake a credit register search and credit scoring.',
+
+
+        'benefits': [
+            {
+
+
+          'iconUrl': 'https: //asset1.marksandspencer.com/is/image/mands/sparks-pay-interest-rate?fmt=png-alpha&wid=288',
+
+
+          'benefit': '20% off your next shop',
+
+
+          'description': 'Get accepted for Sparks Pay and enjoy this discount on your first eligible Clothing & Home shop. Exclusions apply.*'
+            },
+            {
+
+
+          'iconUrl': 'https: //asset1.marksandspencer.com/is/image/mands/sparks-pay-interest-days?fmt=png-alpha&wid=288',
+
+
+          'benefit': 'Pay nothing for at least 30 days',
+
+
+          'description': 'And enjoy 76 days interest free on your first shop.**'
+            },
+            {
+
+
+          'iconUrl': 'https: //asset1.marksandspencer.com/is/image/mands/sparks-pay-quick-apply?fmt=png-alpha&wid=288',
+
+
+          'benefit': 'Quick to apply & set up',
+
+
+          'description': 'As a Sparks customer, you can start using a Sparks Pay credit account today, no plastic card needed. '
+            }
+          ],
+
+
+        'representativeBanner': {
+
+
+          'show': true,
+
+
+          'title': 'Representative example',
+
+
+          'subtitle': 'What do these rates mean?',
+
+
+          'contents': [
+              {
+
+
+            'subtitle': '23.9%',
+
+
+            'description': 'Purchase rate p.a. (variable)'
+              },
+              {
+
+
+            'subtitle': '23.9% APR',
+
+
+            'description': 'Representative (variable)'
+              },
+              {
+
+
+            'subtitle': '£500',
+
+
+            'description': 'Credit limit'
+              }
+            ],
+
+
+          'info': 'Credit is subject to status and eligibility check.'
+          }
+        }
+      },
+
+
+    'bottom': {
+
+
+      'show': true,
+
+
+      'content': {
+
+
+        'title': 'How to shop',
+
+
+        'icon1': 'https: //asset1.cxnmarksandspencer.com/is/content/mands/SparksPay-step-1',
+
+
+        'icon1AltText': '1',
+
+
+        'subtitle1': 'Apply',
+
+
+        'desc1': 'It’s quick and easy, with an instant decision.',
+
+
+        'icon2': 'https: //asset1.cxnmarksandspencer.com/is/content/mands/SparksPay-step-2',
+
+
+        'icon2AltText': '2',
+
+
+        'subtitle2': 'Shop online',
+
+
+        'desc2': 'Sparks Pay will automatically appear as a payment option at checkout and 20% off will be applied to your next eligible shop.',
+
+
+        'icon3': 'https: //asset1.cxnmarksandspencer.com/is/content/mands/SparksPay-step-3',
+
+
+        'icon3AltText': '3',
+
+
+        'subtitle3': 'Manage',
+
+
+        'desc3': 'To view your balance, statements and to make payments, access your account through M&S.com or the M&S app.',
+
+
+        'info': {
+
+
+          'desc1': 'Find out',
+
+
+          'desc2': 'here',
+
+
+          'desc3': 'how to use Sparks Pay in store.'
+          },
+
+
+        'creditCardBanner': {
+
+
+          'show': true,
+
+
+          'content': {
+
+
+            'image': {
+
+
+              'desktopUrl': 'https: //asset1.marksandspencer.com/is/image/mands/sparks-pay-cc?fmt=png-alpha&wid=301',
+
+
+              'alt': 'Credit card'
+              },
+
+
+            'title': 'Not the right offer for you?',
+
+
+            'subtitle': 'Check out the M&S Credit Card instead.',
+
+
+            'linkText': 'Find out more',
+
+
+            'linkUrl': 'https: //www.marksandspencer.com/c/creditcard#intid=sparkspay_lp_bank6153'
+            }
+          }
+        }
+      },
+
+
+    'errorMessage': {
+
+
+      'featureSwitchOnMessage': 'Sparks Pay is currently unavailable. Please try again later.',
+
+
+      'sparkspay': 'Sparks Pay is currently unavailable. Please try again or proceed with another payment.',
+
+
+      'getApplication': 'Sparks Pay applications are currently unavailable. Please try again later.',
+
+
+      'sparkspayNotEligible': 'We’re sorry - you cannot apply for Sparks Pay at the moment. If your application was declined, you must wait 30 days before submitting a new application. If you closed your account, you must wait 6 months before opening a new one.'
+      },
+
+
+    'statusMessage': {
+
+
+      'accepted': 'Your application has been approved, but you have one more step to complete before you can use Sparks Pay.',
+
+
+      'completed': 'You’ve got a Sparks Pay account already.',
+
+
+      'declined': 'We’re sorry - your application was unsuccessful.',
+
+
+      'referred': 'Your application has already been received and is currently being reviewed.',
+
+
+      'sparkspayRestricted': 'Sparks Pay is a financially regulated product provided by M&S Bank. Only the customer and M&S Bank service agents have permission to apply for Sparks Pay.'
+      },
+
+
+    'faq': {
+
+
+      'show': true,
+
+
+      'heading': 'Frequently asked questions',
+
+
+      'sections': {
+
+
+        'id': 'landing-page-faq',
+
+
+        'accordionSections': [
+            {
+
+
+          'label': 'What is Sparks Pay?',
+
+
+          'contentPartial': 'accordionPartial',
+
+
+          'content': {
+
+
+            'text': 'Sparks Pay is a new way to pay, it is a digital credit account that provides a £500 credit limit to spend at M&S with no payment to be made on your first transaction for at least 30 days and up to 45 days interest free thereafter (when you pay your balance in full). Apply for an instant decision today and once accepted, you will get 20% off your first eligible Clothing & Home shop.*'
+              }
+            },
+            {
+
+
+          'label': 'What are the benefits of Sparks Pay?',
+
+
+          'contentPartial': 'accordionPartial',
+
+
+          'content': {
+
+
+            'text': 'With Sparks Pay you could enjoy £500 credit to spend at M&S with no payment to be made on your first transaction for at least 30 days and up to 45 days interest free thereafter (when you pay your balance in full). Paying with Sparks Pay online is quick and easy via a one click payment journey and with all of your account information available in one place on M&S.com and the M&S app. Plus, enjoy 20% off your first eligible Clothing & Home shop.*'
+              }
+            },
+            {
+
+
+          'label': 'How do I use Sparks Pay?',
+
+
+          'contentPartial': 'accordionPartial',
+
+
+          'content': {
+
+
+            'text': 'If your application is successful, we’ll add Sparks Pay to your payment methods so you can use it whenever you checkout online.'
+              }
+            },
+            {
+
+
+          'label': 'How can I use Sparks Pay in store?',
+
+
+          'contentPartial': 'accordionPartial',
+
+
+          'content': {
+
+
+            'text': 'Enjoy all of the Sparks Pay benefits with one easy scan when shopping in store.*** <br /><br /><ol class="sparks-pay-faq-ul"><li>Open the M&S app: once you\'re in the app click on the \'More\' menu and then \'in store payment settings\' to link your to link your Sparks account to Sparks Pay</li><li>Set up Sparks Pay for in store shopping: follow the steps on screen, which should then update your digital Sparks card to show a QR code instead</li> <li>Scan your Sparks QR code: scan your QR code at the till when paying - simple. And you\'ll still get all your regular Sparks benefits too.</li></ol>'
+              }
+            },
+            {
+
+
+          'label': 'Do I need to be a Sparks customer to apply?',
+
+
+          'contentPartial': 'accordionPartial',
+
+
+          'content': {
+
+
+            'text': 'Yes, but if you are not currently a Sparks customer there is no need to worry! You will be asked to sign up to Sparks before starting your Sparks Pay application. Learn more about Sparks here.'
+              }
+            },
+            {
+
+
+          'label': 'Am I eligible?',
+
+
+          'contentPartial': 'accordionPartial',
+
+
+          'content': {
+
+
+            'text': 'Sparks Pay is available to UK residents, aged 18 and over. You\'ll need to have an annual income/pension before tax of £6,
+                800 or more and be happy for M&S Bank to undertake a credit register search and credit scoring.'
+              }
+            }
+          ]
+        }
+      },
+
+
+    'footerContent': {
+
+
+      'show': true,
+
+
+      'title': 'Terms & Conditions',
+
+
+      'tnc': '<div>*20% off at M&S offer: may be redeemed on your first Eligible Purchase after account opening either online at M&S.com or in a participating UK store (see full offer T&Cs for exclusions). This may include one or more eligible items purchased in a single transaction totalling a maximum value of £500 (after discount), the balance to be paid using Sparks Pay. Eligible items exclude: Brands at M&S,
+        30% and higher % off offers, Beauty Advent Calendar and Beauty Box offers, Furniture (including furniture delivery and disposal services), stationery, cards and wrap, personalised items, made to order suits, made to order curtains, tailoring alterations, schoolwear, ‘Your School Uniform’ service, repairs services, name tapes, gift cards/vouchers, food, flowers, beers, wine & spirits, charity items, M&S opticians, sale and clearance items. Full T&Cs apply and can be viewed <a href="https://asset1.marksandspencer.com/is/content/mands/Sparks-Pay-offer-TnCpdf?target=external#intid=sparkspaynav_lp_txt_terms_end" target="_blank">here</a>.</div><div style="padding-top:20px">**Get up to ‌76 ‌days interest free on your first order when you pay your balance in full, and up to ‌45 ‌days for later transactions. We may send you a statement each month, the minimum payment in your first statement will be ‌£0‌.</div><div style="padding-top:20px">***Some franchise store exclusions apply, see full T&Cs <a href="https://bank.marksandspencer.com/pdf/MSBPrivacyNotice.pdf" target="_blank">here</a></div><div style="padding-top:20px">Credit is provided subject to status by Marks & Spencer Financial Services plc. Kings Meadow, Chester, CH99 9FB. Applicants must be UK resident, aged 18 and over and must have an annual income/pension before tax of £6,
+        800 or more. Marks and Spencer plc, Waterside House,
+        35 North Wharf Road, London W2 1NW. Authorised and regulated by the Financial Conduct Authority (Register no. 718711). <a href="https://bank.marksandspencer.com/pdf/SparksPayTCs.pdf" target="_blank">Sparks Pay T&Cs apply</a>.</div>',
+
+
+      'imageUrl': 'https: //asset1.cxnmarksandspencer.com/is/content/mands/external-link-alt-solid__primary',
+
+
+      'imageAlt': 'opens in a new window',
+
+
+      'linkTexts': [
+          {
+
+
+        'label': 'Sparks Pay Terms and Conditions',
+
+
+        'link': 'https: //bank.marksandspencer.com/pdf/SparksPayTCs.pdf',
+
+
+        'openInNewWindow': true
+          },
+          {
+
+
+        'label': 'M&S Bank Privacy Notice',
+
+
+        'link': 'https: //bank.marksandspencer.com/pdf/MSBPrivacyNotice.pdf',
+
+
+        'openInNewWindow': true
+          },
+          {
+
+
+        'label': 'Sparks Pay Offer Terms and Conditions',
+
+
+        'link': 'https: //asset1.marksandspencer.com/is/content/mands/Sparks-Pay-offer-TnCpdf?target=external#intid=sparkspaynav_lp_txt_terms_end',
+
+
+        'openInNewWindow': true
+          }
+        ]
+      },
+
+
+    'footerContentGuest': {
+
+
+      'show': true,
+
+
+      'tnc': '<div>*Marks and Spencer plc 20% off your first order offer excludes: Brands at M&S,
+        30% and higher % off offers, Beauty Advent Calendar and Beauty Box offers, Furniture (including furniture delivery and disposal services), stationery, cards and wrap, personalised items, Made to Order Suits, made to order curtains, tailoring alterations, schoolwear, ‘Your School Uniform’ service, repairs services, name tapes, Gift Card/Vouchers, food, flowers, beers, wine & spirits, charity items, M&S opticians, sale and clearance items. Your order may be one or more eligible items totalling a maximum value of £500 (after any discount has been made).</div> <div style="padding-top:20px">**Get up to 76 days interest free on your first order when you pay your balance in full, and up to 45 days for later transactions.</div><div style="padding-top:20px">Credit is provided subject to status by Marks & Spencer Financial Services plc. Kings Meadow, Chester, CH99 9FB. Applicants must be UK resident, aged 18 and over and must have an annual income/pension before tax of £6,
+        800 or more. </div> <div style="padding-top:20px"> <span style="font-weight: 800;">†Marks and Spencer plc, Waterside House,
+        35 North Wharf Road, London W2 1NW acts as a credit broker and not a lender. </span> Authorised and regulated by the Financial Conduct Authority (Register no. 718711). Sparks Pay T&C’s apply. AC59090.</div>',
+
+
+      'imageUrl': 'https: //asset1.cxnmarksandspencer.com/is/content/mands/external-link-alt-solid__primary',
+
+
+      'imageAlt': 'opens in a new window',
+
+
+      'linkTexts': [
+          {
+
+
+        'label': 'Sparks Pay Terms and Conditions',
+
+
+        'link': 'https: //bank.marksandspencer.com/pdf/SparksPayTCs.pdf',
+
+
+        'openInNewWindow': true
+          },
+          {
+
+
+        'label': 'M&S Bank Privacy Notice',
+
+
+        'link': 'https: //bank.marksandspencer.com/pdf/MSBPrivacyNotice.pdf',
+
+
+        'openInNewWindow': true
+          },
+          {
+
+
+        'label': 'Sparks Pay Offer Terms and Conditions',
+
+
+        'link': 'https: //asset1.marksandspencer.com/is/content/mands/Sparks-Pay-offer-TnCpdf?target=external#intid=sparkspaynav_lp_txt_terms_end',
+
+
+        'openInNewWindow': true
+          }
+        ]
+      },
+
+
+    'login': {
+
+
+      'desktopUrl': 'https: //asset1.cxnmarksandspencer.com/is/content/mands/SparksPay-title',
+
+
+      'pageTitle': 'Love M&S. Love a new way to pay',
+
+
+      'content': {
+
+
+        'label': 'Exclusively for Sparks customers',
+
+
+        'section1': {
+
+
+          'title': 'Sign in or Register to Sparks',
+
+
+          'siginInLabel': 'Existing Sparks Customer?',
+
+
+          'registerLabel': 'New to Sparks?'
+          },
+
+
+        'section2': {
+
+
+          'title': 'Sparks Pay application'
+          }
+        }
+      },
+
+
+    'applyPageContent': {
+
+
+      'top': {
+
+
+        'show': true,
+
+
+        'content': {
+
+
+          'image': {
+
+
+            'titleUrl': 'https: //asset1.cxnmarksandspencer.com/is/content/mands/SparksPay-title',
+
+
+            'alt': 'Sparks Pay'
+            },
+
+
+          'message': 'Love M&S. Love a new way to pay',
+
+
+          'title': 'Welcome to Sparks,',
+
+
+          'desc': 'As a Sparks customer, you can start enjoying Sparks Pay today, with 20% off your first Clothing and Home order.* M&S Plc acts as the credit broker not a lender.†'
+          }
+        }
+      },
+
+
+    'popUp': {
+
+
+      'show': true,
+
+
+      'title': '',
+
+
+      'content': [
+          {
+
+
+          'title': 'Representative example',
+
+
+          'description': 'Lenders offer different rates and credit limits depending on people\'s personal circumstances, but when you first start searching for a credit card you\'ll typically see the representative example. It shows the rate that at least 51% of those accepted for the credit deal will get on any given product. However, that does mean that almost half the people who are approved for the deal may not be eligible for the advertised rate and will get a different rate – usually a higher one.'
+          },
+          {
+
+
+          'title': 'Representative APR (Variable)',
+
+
+          'description': 'APR stands for Annual Percentage Rate and it refers to the yearly cost of borrowing money. APR factors in how much interest you will have to pay. Variable APR means that the APR isn\'t fixed, and can change over time. So, the amount of interest you are charged each month will vary depended on the APR at that time. There are lots of reasons your APR might change, though it will usually be to stay in line with the Bank of England interest rate.'
+          },
+          {
+
+
+          'title': 'Purchase rate p.a. (Variable)',
+
+
+          'description': 'It is the annual interest rate on purchases. If you pay your credit bill in full and on time, then you won\'t have to pay any interest on your purchases. It\'s only when you carry a balance over into a new month that you will have to pay interest.'
+          },
+          {
+
+
+          'title': 'Assumed credit limit',
+
+
+          'description': 'With Sparks Pay you will get £500 credit to spend at M&S.'
+          }
+        ]
+      }
+    }
+  };
