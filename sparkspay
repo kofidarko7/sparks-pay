@@ -111,8 +111,7 @@ module.exports = {
         'title': 'What’s great about Sparks Pay?',
 
 
-        'description': 'Sparks Pay is available to UK residents, aged 18 and over. You\'ll need to have an annual income/pension before tax of £6,
-          800 or more and be happy for M&S Bank to undertake a credit register search and credit scoring.',
+        'description': 'Sparks Pay is available to UK residents, aged 18 and over. You\'ll need to have an annual income/pension before tax of £6,800 or more and be happy for M&S Bank to undertake a credit register search and credit scoring.',
 
 
         'benefits': [
@@ -122,10 +121,10 @@ module.exports = {
           'iconUrl': 'https: //asset1.marksandspencer.com/is/image/mands/sparks-pay-interest-rate?fmt=png-alpha&wid=288',
 
 
-          'benefit': '20% off your next shop',
+          'benefit': '20% off your first purchase',
 
 
-          'description': 'Get accepted for Sparks Pay and enjoy this discount on your first eligible Clothing & Home shop. Exclusions apply.*'
+          'description': 'Get accepted for Sparks Pay and enjoy this discount on your first eligible Clothing & Home purchase. Exclusions apply.*'
             },
             {
 
@@ -133,10 +132,10 @@ module.exports = {
           'iconUrl': 'https: //asset1.marksandspencer.com/is/image/mands/sparks-pay-interest-days?fmt=png-alpha&wid=288',
 
 
-          'benefit': 'Pay nothing for at least 30 days',
+          'benefit': 'Up to 45 days interest free',
 
 
-          'description': 'And enjoy 76 days interest free on your first shop.**'
+          'description': 'And enjoy 76 days interest free on your first purchase.**'
             },
             {
 
@@ -147,7 +146,7 @@ module.exports = {
           'benefit': 'Quick to apply & set up',
 
 
-          'description': 'As a Sparks customer, you can start using a Sparks Pay credit account today, no plastic card needed. '
+          'description': 'As a Sparks customer, you can start using Sparks Pay today, no plastic card needed.  '
             }
           ],
 
@@ -219,7 +218,7 @@ module.exports = {
         'subtitle1': 'Apply',
 
 
-        'desc1': 'It’s quick and easy, with an instant decision.',
+        'desc1': 'It\'s quick and easy, with an instant decision.',
 
 
         'icon2': 'https: //asset1.cxnmarksandspencer.com/is/content/mands/SparksPay-step-2',
@@ -228,10 +227,10 @@ module.exports = {
         'icon2AltText': '2',
 
 
-        'subtitle2': 'Shop online',
+        'subtitle2': 'Shop',
 
 
-        'desc2': 'Sparks Pay will automatically appear as a payment option at checkout and 20% off will be applied to your next eligible shop.',
+        'desc2': 'When shopping online Sparks Pay will appear as an option at checkout and 20% off will be applied to your first eligible purchase. Sparks Pay is also available at all our M&S stores1, find out more here.',
 
 
         'icon3': 'https: //asset1.cxnmarksandspencer.com/is/content/mands/SparksPay-step-3',
@@ -357,7 +356,7 @@ module.exports = {
           'content': {
 
 
-            'text': 'Sparks Pay is a new way to pay, it is a digital credit account that provides a £500 credit limit to spend at M&S with no payment to be made on your first transaction for at least 30 days and up to 45 days interest free thereafter (when you pay your balance in full). Apply for an instant decision today and once accepted, you will get 20% off your first eligible Clothing & Home shop.*'
+            'text': 'Sparks Pay is a new way to pay, it is a digital credit account that provides a £500 credit limit to spend at M&S with no payment to be made on your first purchase for 76 days and up to 45 days interest free thereafter (when you pay your balance in full). Apply for an instant decision today and once accepted, you will get 20% off your first eligible Clothing & Home purchase.*'
               }
             },
             {
@@ -372,13 +371,13 @@ module.exports = {
           'content': {
 
 
-            'text': 'With Sparks Pay you could enjoy £500 credit to spend at M&S with no payment to be made on your first transaction for at least 30 days and up to 45 days interest free thereafter (when you pay your balance in full). Paying with Sparks Pay online is quick and easy via a one click payment journey and with all of your account information available in one place on M&S.com and the M&S app. Plus, enjoy 20% off your first eligible Clothing & Home shop.*'
+            'text': 'With Sparks Pay you could enjoy £500 credit to spend at M&S with no payment to be made on your first purchase for 76 days and up to 45 days interest free thereafter (when you pay your balance in full). Paying with Sparks Pay online is quick and easy via a one click payment journey and with all of your account information available in one place on M&S.com and the M&S app. Plus, enjoy 20% off your first eligible Clothing & Home purchase.*'
               }
             },
             {
 
 
-          'label': 'How do I use Sparks Pay?',
+          'label': 'How do I use Sparks Pay online?',
 
 
           'contentPartial': 'accordionPartial',
@@ -402,9 +401,27 @@ module.exports = {
           'content': {
 
 
-            'text': 'Enjoy all of the Sparks Pay benefits with one easy scan when shopping in store.*** <br /><br /><ol class="sparks-pay-faq-ul"><li>Open the M&S app: once you\'re in the app click on the \'More\' menu and then \'in store payment settings\' to link your to link your Sparks account to Sparks Pay</li><li>Set up Sparks Pay for in store shopping: follow the steps on screen, which should then update your digital Sparks card to show a QR code instead</li> <li>Scan your Sparks QR code: scan your QR code at the till when paying - simple. And you\'ll still get all your regular Sparks benefits too.</li></ol>'
+           'text': 'If you are accepted for Sparks Pay you will receive email communication about how to use Sparks Pay in store. You will need to follow these three simple steps <br /><br /><ol class="sparks-pay-faq-ul"><li>Make sure you have downloaded the latest version of the M&S app. Once signed in, tap the 'More' menu option, then scroll down and click 'in-store payment settings'.</li><li>Follow the steps on screen, which will then update your digital Sparks card to a QR code.</li><li>Tap the 'Sparks' menu option and your Sparks QR code will appear. Scan the code a the till in store and both your payment an loyalty points will be covered.</li></ol> Please see a list of participating stores here.'
               }
             },
+
+             {
+
+
+          'label': 'How do I relink my Sparks Pay account to my device?',
+
+
+          'contentPartial': 'accordionPartial',
+
+
+          'content': {
+
+
+            'text': 'Please see steps in FAQ 'How do I use Sparks Pay in store' above and follow these.'
+              }
+            },
+
+
             {
 
 
@@ -432,8 +449,7 @@ module.exports = {
           'content': {
 
 
-            'text': 'Sparks Pay is available to UK residents, aged 18 and over. You\'ll need to have an annual income/pension before tax of £6,
-                800 or more and be happy for M&S Bank to undertake a credit register search and credit scoring.'
+            'text': 'Sparks Pay is available to UK residents, aged 18 and over. You\'ll need to have an annual income/pension before tax of £6,800 or more and be happy for M&S Bank to undertake a credit register search and credit scoring.'
               }
             }
           ]
