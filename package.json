@@ -1,0 +1,154 @@
+{
+  "name": "fesk-sparks-pay-browse",
+  "version": "1.0.0",
+  "description": "sparks-pay-browse",
+  "main": "./modules/cli/lib/index.js",
+  "author": "Team Awesome",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DigitalInnovation/fesk-sparks-pay-browse"
+  },
+  "engines": {
+    "node": "10.15.3",
+    "npm": "6.14.4"
+  },
+  "eslintIgnore": [
+    "node_modules",
+    "**/*.min.js"
+  ],
+  "babel": {
+    "presets": [
+      "es2015"
+    ],
+    "env": {
+      "test": {
+        "plugins": [
+          "istanbul"
+        ]
+      }
+    }
+  },
+  "sasslintConfig": "node_modules/@mands/mns-lint-config/sass-lint.yml",
+  "dependencies": {
+    "@mands/hbs-html-minifier": "^1.1.0",
+    "@mands/mns-core-ui-footer": "2.2.0",
+    "@mands/mns-core-ui-header": "9.8.5",
+    "@mands/mns-fe-foundation": "13.2.2",
+    "@mands/mns-fe-pattern-library": "14.8.2",
+    "@mands/mns-fe-server": "2.5.1",
+    "@mands/mns-fe-test": "0.5.0",
+    "axios": "^0.19.2",
+    "compression": "^1.7.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "express-prom-bundle": "^3.2.0",
+    "express-promise": "0.4.0",
+    "express-request-id": "^1.3.0",
+    "glob": "^7.1.2",
+    "handlebars-helpers": "^0.10.0",
+    "imagemin-webpack-plugin": "^2.4.2",
+    "jsonwebtoken": "8.5.1",
+    "jwks-rsa": "2.0.5",
+    "newrelic": "7.3.1",
+    "nock": "^10.0.0",
+    "npm": "^6.7.0",
+    "npm-run-all": "^4.1.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@mands/mns-lint-config": "^0.0.7",
+    "acorn": "^5.1.1",
+    "app-root-path": "^2.1.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-builtin-extend": "^1.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "browser-sync": "^2.26.7",
+    "chai": "^4.1.1",
+    "chai-as-promised": "^7.1.1",
+    "chai-http": "^4.0.0",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
+    "eslint-watch": "^3.1.5",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "fast-sass-loader": "^1.4.5",
+    "file-loader": "^1.1.5",
+    "fs-extra": "^6.0.1",
+    "git-rev-sync": "^1.12.0",
+    "ignore-styles": "^5.0.1",
+    "ip": "^1.1.4",
+    "jsdom": "^11.11.0",
+    "lighthouse": "^3.0.3",
+    "mocha": "^5.2.0",
+    "node-mocks-http": "^1.7.0",
+    "node-sass": "^4.9.0",
+    "nodemon": "^1.18.7",
+    "nyc": "^11.8.0",
+    "pa11y-ci": "^2.1.1",
+    "postcss-loader": "^2.1.5",
+    "request": "^2.87.0",
+    "sass-lint": "^1.9.1",
+    "sass-lint-auto-fix": "^0.11.1",
+    "sinon": "^5.0.9",
+    "sinon-chai": "^3.1.0",
+    "tar": "^4.4.3",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "w3cjs": "^0.4.0",
+    "wdio-mocha-framework": "^0.6.4",
+    "wdio-sauce-service": "^0.4.14",
+    "wdio-selenium-standalone-service": "0.0.10",
+    "wdio-spec-reporter": "^0.1.5",
+    "wdio-visual-regression-service": "^0.9.0",
+    "webdriverio": "^4.12.0",
+    "webpack": "^3.12.0",
+    "webpack-manifest-plugin": "^1.1.0",
+    "yargs": "^11.1.1"
+  },
+  "bugs": {
+    "url": "https://github.com/DigitalInnovation/fesk-sparks-pay-browse/issues"
+  },
+  "bin": {
+    "fesk": "./modules/cli/lib/index.js"
+  },
+  "scripts": {
+    "start": "node --max-http-header-size=81000 ./src/server.js",
+    "start:cf": "npm run open:server",
+    "dev": "run-p watch browsersync",
+    "dev:docker": "run-s lint test:unit test:w3c bundle:dev docker:build docker:stop && sh ./scripts/docker/test.sh && sh ./scripts/docker/attach.sh",
+    "open:server": "node --max-http-header-size=81000 ./src/server.js",
+    "watch": "./scripts/npm-scripts/dev-test.sh",
+    "browsersync": "./scripts/wait-for-it.sh localhost:3000 -s -t 200 -- browser-sync start --host localhost --port 3002 -p localhost:3000 -f c/static* --reload-debounce 2000",
+    "watch:reload": "run-p start browsersync:reload",
+    "browsersync:reload": "./scripts/wait-for-it.sh localhost:3000 -s -t 200 -- browser-sync reload --port 3002",
+    "bundle": "rm -rf ./sparkspay && webpack --config config/webpack/webpack.config.js --progress --env dist --bail",
+    "bundle:dev": "rm -rf ./sparkspay && webpack --config config/webpack/webpack.config.js --progress --env dev --bail",
+    "lint": "./scripts/npm-scripts/lint.sh",
+    "lint:autofix": "./scripts/npm-scripts/lint-fix.sh",
+    "test:accessibility": "./scripts/wait-for-it.sh localhost:3000 && ./node_modules/.bin/pa11y-ci --config ./config/test/accessibility/pally.config.js",
+    "test": "./scripts/npm-scripts/full-test.sh",
+    "test:unit": "./scripts/npm-scripts/nyc-unit-test.sh",
+    "test:unit:client": "mocha --timeout 10000 --exit --require babel-core/register ./config/test/unit/client.config.js \"./**/*.client.unit.test.js\"  \"./src/common/**/*.test.js\"",
+    "test:unit:server": "mocha --timeout 10000 --exit ./config/test/unit/server.config.js \"./**/*.server.unit.test.js\" \"./src/**/handler.test.js\" \"./src/**/route.server.unit.test.js\" \"./config/webpack/generateEntryPoints.server.unit.test.js\" \"./utilities/**/*.test.js\" \"./src/services/*.test.js\"",
+    "test:w3c": "mocha --exit ./config/test/unit/w3c.config.js \"./src/**/w3c.test.js\" --timeout 20000",
+    "test:a11y": "./scripts/npm-scripts/a11y-test.sh",
+    "test:perf": "./scripts/npm-scripts/perf-test.sh",
+    "test:func": "./scripts/npm-scripts/func-test.sh",
+    "test:functional": "wdio ./config/test/visual-and-functional/wdio.conf.js",
+    "test:func:sauce:ci": "./scripts/wait-for-it.sh localhost:3000 && wdio ./config/test/visual-and-functional/wdio.sauce.ci.conf.js",
+    "test:visual": "./scripts/wait-for-it.sh localhost:3000 && wdio ./config/test/visual-and-functional/wdio.visual.conf.js",
+    "test:visual:sauce": "./scripts/wait-for-it.sh localhost:3000 && wdio ./config/test/visual-and-functional/wdio.sauce.visual.conf.js",
+    "docker:stop": "sh ./scripts/docker/stop.sh",
+    "docker:build": "sh ./scripts/docker/build.sh",
+    "docker:test": "sh ./scripts/docker/test.sh && npm run docker:stop",
+    "ci:deploy:azure": "./mns-fe-deployment/scripts/deploy-ci-azure.sh fesk-content-archive"
+  },
+  "homepage": "https://github.com/DigitalInnovation/fesk-sparks-pay-browse#readme",
+  "files": [
+    "modules/",
+    "scripts/",
+    "src/",
+    "package-lock.json"
+  ]
+}
